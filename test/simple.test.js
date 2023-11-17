@@ -1,4 +1,4 @@
-const { Ucuptest } = require('../index');
+const { Ucuptest } = require('ucuptest-new');
 const ucuptest = new Ucuptest();
 
 ucuptest.setBaseUrl('https://jsonplaceholder.typicode.com'); // Ganti dengan base URL yang sesuai

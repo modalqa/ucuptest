@@ -1,4 +1,4 @@
-const { Ucuptest, assert } = require('../index');
+const { Ucuptest } = require('ucuptest-new');
 
 // Membuat instance Ucuptest
 const ucuptest = new Ucuptest();
