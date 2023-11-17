@@ -1,23 +1,3 @@
-
-# UcupTest
-Simple API Test Framework
-
-## Introduction
-
-
-## Installation
-
-Install Ucuptest from NPM into your project:
-
-    npm i ucuptest-new
-
-## Creating Tests
-
-### Simple Example
-
-The minimum setup to run a single test expectation.
-
-```javascript
 const { Ucuptest } = require('../index');
 const ucuptest = new Ucuptest();
 
@@ -30,5 +10,3 @@ ucuptest.get('/todos/1', {}, null, 'Simple Test')
   .finally(() => {
     ucuptest.runTests();
   });
-
-```
